@@ -1,6 +1,6 @@
 I forgot to fork so im leaving the readme as is
 
-since my library was meant for 1.8.9 forge mods (but ig can be used for more than that) this is a template that already has the library installed
+since my library was meant for 1.8.9 forge mods (but ig can be used for more than that) this is a cobalt-cdp template
 
 # Architectury Loom based template for 1.8.9 forge mods
 
