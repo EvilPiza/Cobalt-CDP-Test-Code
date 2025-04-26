@@ -1,5 +1,7 @@
 I forgot to fork so im leaving the readme as is
 
+since my library was meant for 1.8.9 forge mods (but ig can be used for more than that) this is a template that already has the library installed
+
 # Architectury Loom based template for 1.8.9 forge mods
 
 **For other templates, do check out the [other branches of this repository](https://github.com/romangraef/Forge1.8.9Template/branches/all)**
