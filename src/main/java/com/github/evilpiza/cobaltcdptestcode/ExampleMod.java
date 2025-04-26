@@ -1,4 +1,4 @@
-package com.example;
+package com.github.evilpiza.cobaltcdptestcode;
 
 import net.minecraft.client.renderer.GlStateManager;
 import net.minecraft.init.Blocks;
@@ -6,7 +6,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import com.github.evilpiza.cobaltcdp.RichPresence;
 
-@Mod(modid = "examplemod", useMetadata=true)
+@Mod(modid = "cobaltcdptestcode", useMetadata=true)
 public class ExampleMod {
     @Mod.EventHandler
     public void init(FMLInitializationEvent event) {
