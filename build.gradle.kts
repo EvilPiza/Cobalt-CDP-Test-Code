@@ -67,6 +67,7 @@ repositories {
     maven("https://repo.spongepowered.org/maven/")
     // If you don't want to log in with your real minecraft account, remove this line
     maven("https://pkgs.dev.azure.com/djtheredstoner/DevAuth/_packaging/public/maven/v1")
+    maven("https://jitpack.io")
 }
 
 val shadowImpl: Configuration by configurations.creating {
@@ -87,6 +88,10 @@ dependencies {
     // If you don't want to log in with your real minecraft account, remove this line
     runtimeOnly("me.djtheredstoner:DevAuth-forge-legacy:1.2.1")
 
+    // cobaltcdp dependencies + cobaltcdp
+    implementation("com.github.MinnDevelopment:Java-DiscordRPC:v2.0.2")
+    implementation("com.github.evilpiza:cobalt-cdp:595c4448a5")
+    // I hate my life
 }
 
 // Tasks:
